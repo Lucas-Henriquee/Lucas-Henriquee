@@ -1,16 +1,16 @@
-## Hi there 👋
+## Hi, I'm Lucas 👋
 
-<!--
-**Lucas-Henriquee/Lucas-Henriquee** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm a Computational Engineering student focused on:
+- Machine Learning and Data Science
+- Optimization and Numerical Methods
+- Research-oriented software development
 
-Here are some ideas to get you started:
+### Research & Projects
+- Time series forecasting with ML models
+- Scientific computing frameworks
+- Reproducible experiments and benchmarking
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### Tech Stack
+- Python, C/C++, Java, SQL
+- PyTorch, Scikit-learn, NumPy, Pandas
+- Git, Linux, Data Structures & Algorithms
