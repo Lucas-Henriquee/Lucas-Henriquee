@@ -11,6 +11,6 @@ I'm a Computational Engineering student focused on:
 - Reproducible experiments and benchmarking
 
 ### Tech Stack
-- Python, C/C++, Java, SQL
+- Python, C/C++, Java, SQL, HTML/CSS e JavaScript
 - PyTorch, Scikit-learn, NumPy, Pandas
 - Git, Linux, Data Structures & Algorithms
