@@ -3,11 +3,9 @@
 ### GitHub activity
 
 <picture>
-  <source media="(max-width: 420px)" srcset="assets/activity-mobile.svg" />
-  <img src="assets/activity.svg" alt="Profile views, stars earned, and commits this year. Public statistics refreshed daily." width="100%" />
-</picture>
-
-<img src="https://komarev.com/ghpvc/?username=Lucas-Henriquee&style=pixel" alt="" width="1" height="1" />
+  <source media="(max-width: 420px)" srcset="assets/activity-mobile.svg?v=2" />
+  <img src="assets/activity.svg?v=2" alt="Profile views, stars earned, and commits this year. Public statistics refreshed daily." width="100%" />
+</picture><img src="https://komarev.com/ghpvc/?username=Lucas-Henriquee&style=pixel" alt="" width="1" height="1" />
 
 ## Hi, I'm Lucas 👋
 
