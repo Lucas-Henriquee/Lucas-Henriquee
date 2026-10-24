@@ -98,4 +98,21 @@ jobs:
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add assets/activity.svg assets/activity-mobile.svg
           git commit -m 'Update profile activity cards'
+          export CARDS_REF="$(git rev-parse HEAD)"
+          python3 - <<'PYTHON'
+          import os
+          import re
+          from pathlib import Path
+          readme = Path('README.md')
+          source = readme.read_text(encoding='utf-8')
+          for name in ('activity.svg', 'activity-mobile.svg'):
+              url = f"https://raw.githubusercontent.com/{os.environ['GITHUB_REPOSITORY']}/{os.environ['CARDS_REF']}/assets/{name}"
+              pattern = r'(src(?:set)?=")[^"]*assets/' + re.escape(name) + r'(?:\?[^"]*)?(")'
+              source = re.sub(pattern, lambda match: match[1] + url + match[2], source)
+          readme.write_text(source, encoding='utf-8')
+          PYTHON
+          if ! git diff --quiet -- README.md; then
+            git add README.md
+            git commit -m 'Refresh activity image references'
+          fi
           git push
