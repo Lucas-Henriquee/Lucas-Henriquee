@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="360" viewBox="0 0 1000 360" role="img" aria-labelledby="title desc">
+<title id="title">Lucas — Computational Engineering</title>
+<desc id="desc">Machine learning, quantum computing and scientific software. Animated mathematical curves and orbiting particles decorate the banner.</desc>
+<defs>
+<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0d1423"/><stop offset="1" stop-color="#132b38"/></linearGradient>
+<radialGradient id="glow"><stop stop-color="#54c9c4" stop-opacity=".17"/><stop offset="1" stop-color="#54c9c4" stop-opacity="0"/></radialGradient>
+<linearGradient id="fade"><stop stop-color="#79dcd3" stop-opacity="0"/><stop offset=".45" stop-color="#79dcd3" stop-opacity=".7"/><stop offset="1" stop-color="#79dcd3" stop-opacity=".18"/></linearGradient>
+<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".8" fill="#9badbf" opacity=".16"/></pattern>
+</defs>
+<style>
+.flow{stroke-dasharray:8 12;animation:flow 12s linear infinite}.orbit{transform-origin:800px 172px;animation:orbit 24s linear infinite}.reverse{animation-direction:reverse;animation-duration:32s}.pulse{animation:pulse 4s ease-in-out infinite}.cursor{animation:cursor 1.3s steps(2,end) infinite}
+@keyframes flow{to{stroke-dashoffset:-200}}@keyframes orbit{to{transform:rotate(360deg)}}@keyframes pulse{50%{opacity:.35}}@keyframes cursor{50%{opacity:0}}
+@media(prefers-reduced-motion:reduce){.flow,.orbit,.pulse,.cursor{animation:none}}
+</style>
+<rect width="1000" height="360" rx="12" fill="url(#bg)"/>
+<rect width="1000" height="360" rx="12" fill="url(#grid)"/>
+<circle cx="810" cy="170" r="230" fill="url(#glow)"/>
+<g fill="none" stroke="url(#fade)" stroke-width="1">
+<ellipse cx="800" cy="172" rx="158" ry="64" transform="rotate(-35 800 172)"/>
+<ellipse cx="800" cy="172" rx="158" ry="64" transform="rotate(35 800 172)"/>
+<ellipse cx="800" cy="172" rx="158" ry="64" transform="rotate(90 800 172)"/>
+<circle cx="800" cy="172" r="120" stroke-dasharray="2 8"/>
+<path d="M620 240 C680 240 680 100 740 100 S800 240 860 240 S920 100 990 100" class="flow" stroke-width="2"/>
+<path d="M620 256 C680 256 680 116 740 116 S800 256 860 256 S920 116 990 116" opacity=".5"/>
+<path d="M620 272 C680 272 680 132 740 132 S800 272 860 272 S920 132 990 132" opacity=".25"/>
+</g>
+<g class="orbit"><circle cx="920" cy="172" r="4" fill="#91eee0"/><circle cx="920" cy="172" r="10" fill="#91eee0" opacity=".1"/></g>
+<g class="orbit reverse"><circle cx="800" cy="77" r="3" fill="#a7bafa"/></g>
+<circle class="pulse" cx="800" cy="172" r="5" fill="#a6f3e7"/>
+<g font-family="Arial,Helvetica,sans-serif">
+<text x="46" y="51" fill="#93aaaF" font-family="monospace" font-size="12" letter-spacing="2.2">LUCAS-HENRIQUEE / COMPUTATIONAL ENGINEERING</text>
+<text x="44" y="131" fill="#f0f5fc" font-size="55" font-weight="600" letter-spacing="-2">Exploring intelligence.</text>
+<text x="44" y="196" fill="#8fddd6" font-size="55" font-weight="600" letter-spacing="-2">Through computation.</text>
+<text x="47" y="241" fill="#b7c6d7" font-size="17">Machine learning · Quantum computing · Scientific software</text>
+<text x="47" y="315" fill="#8fddd6" font-family="monospace" font-size="13">&gt; explore · experiment · reproduce</text>
+<rect class="cursor" x="338" y="303" width="7" height="15" fill="#8fddd6"/>
+</g>
+</svg>
