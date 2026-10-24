@@ -9,7 +9,7 @@
 
 ## Hi, I'm Lucas 👋
 
-Computational Engineering student at **UFJF**, exploring machine learning, foundation models, and quantum computing through reproducible experiments and scientific software.
+Computational Engineering student at UFJF, exploring machine learning, foundation models, and quantum computing through reproducible experiments and scientific software.
 
 ### Selected work
 
@@ -27,7 +27,7 @@ Adsorption simulations and analysis with classical and quantum machine learning.
 
 #### [Quantum Computing & AI ↗](https://github.com/Lucas-Henriquee/quantum-computing-and-ai)
 
-Projects, reports, and simulations with **Qiskit**, **PennyLane**, and Python.
+Projects, reports, and simulations with Qiskit, PennyLane, and Python.
 
 ---
 
@@ -39,11 +39,8 @@ Graph algorithms developed in **C++** for Graph Theory coursework at UFJF.
 
 `Python` · `PyTorch` · `scikit-learn` · `Hugging Face` · `Qiskit` · `PennyLane`
 
-<details>
 <summary>Research interests & more tools</summary>
 
 - **Research:** time series forecasting, foundation models, LLM fine-tuning, quantum machine learning, computer vision, optimization, and numerical methods.
 - **Scientific computing:** NumPy, Pandas, Matplotlib, C/C++, R, Fortran, SQL.
 - **Development:** Git, Linux, Java, HTML/CSS, JavaScript, Data Structures & Algorithms.
-
-</details>
