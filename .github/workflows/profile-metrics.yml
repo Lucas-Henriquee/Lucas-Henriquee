@@ -58,19 +58,19 @@ jobs:
           
           
           def render(stars, commits, views, mobile=False):
-              width, height = (320, 410) if mobile else (960, 144)
+              width, height = (320, 482) if mobile else (960, 166)
               labels = [('PROFILE VIEWS', views, 'Image requests'), ('STARS EARNED', stars, 'Public repositories'), ('COMMITS', commits, f'{YEAR} · Public activity')]
               description = f'{views} profile views, {stars} stars earned, {commits} commits in {YEAR}. Refreshed daily from public statistics; values may be cached.'
               parts = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-labelledby="title desc">', '<title id="title">GitHub activity</title>', f'<desc id="desc">{escape(description)}</desc>', '''<style>
                 .surface{fill:#f5f9fa;stroke:#d7e0e6}.label,.note{fill:#526572}.value{fill:#202b36}.signal{fill:#167b78;animation:signal 4s ease-in-out infinite}
                 @media(prefers-color-scheme:dark){.surface{fill:#101923;stroke:#293642}.label,.note{fill:#aab9c7}.value{fill:#e6edf3}.signal{fill:#8fddd6}}
                 @keyframes signal{50%{opacity:.35}}@media(prefers-reduced-motion:reduce){.signal{animation:none}}
-                text{font-family:Arial,Helvetica,sans-serif}.label{font-size:13px;letter-spacing:1px}.value{font-size:40px;font-weight:500}.note{font-size:12px}
+                text{font-family:Arial,Helvetica,sans-serif}.label{font-size:18px;letter-spacing:1px}.value{font-size:48px;font-weight:500}.note{font-size:16px}
               </style>''']
               for index, (label, value, note) in enumerate(labels):
-                  x, y = (1, index * 138 + 1) if mobile else (index * 324 + 1, 1)
+                  x, y = (1, index * 160 + 1) if mobile else (index * 324 + 1, 1)
                   w = 318 if mobile else 310
-                  parts.extend([f'<g transform="translate({x} {y})">', f'<rect class="surface" x="0" y="0" width="{w}" height="132" rx="12"/>', f'<text class="label" x="20" y="30">{label}</text>', f'<circle class="signal" cx="{w - 22}" cy="25" r="3"/>', f'<text class="value" x="20" y="79">{value:,}</text>', f'<text class="note" x="20" y="110">{escape(note)}</text>', '</g>'])
+                  parts.extend([f'<g transform="translate({x} {y})">', f'<rect class="surface" x="0" y="0" width="{w}" height="156" rx="12"/>', f'<text class="label" x="20" y="35">{label}</text>', f'<circle class="signal" cx="{w - 22}" cy="30" r="3"/>', f'<text class="value" x="20" y="94">{value:,}</text>', f'<text class="note" x="20" y="134">{escape(note)}</text>', '</g>'])
               parts.append('</svg>\n')
               return '\n'.join(parts)
           
