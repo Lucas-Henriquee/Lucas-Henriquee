@@ -3,8 +3,8 @@
 ### GitHub activity
 
 <picture>
-  <source media="(max-width: 420px)" srcset="https://raw.githubusercontent.com/Lucas-Henriquee/Lucas-Henriquee/f401c226d9686491a943293f9ecb5164ccd2b700/assets/activity-mobile.svg" />
-  <img src="https://raw.githubusercontent.com/Lucas-Henriquee/Lucas-Henriquee/f401c226d9686491a943293f9ecb5164ccd2b700/assets/activity.svg" alt="Profile views, stars earned, and commits this year. Public statistics refreshed daily." width="100%" />
+  <source media="(max-width: 420px)" srcset="https://raw.githubusercontent.com/Lucas-Henriquee/Lucas-Henriquee/749e00b999d8d25a881734ece222c0be91eca6c9/assets/activity-mobile.svg" />
+  <img src="https://raw.githubusercontent.com/Lucas-Henriquee/Lucas-Henriquee/749e00b999d8d25a881734ece222c0be91eca6c9/assets/activity.svg" alt="Profile views, stars earned, and commits this year. Public statistics refreshed daily." width="100%" />
 </picture><img src="https://komarev.com/ghpvc/?username=Lucas-Henriquee&style=pixel" alt="" width="1" height="1" />
 
 ## Hi, I'm Lucas 👋
